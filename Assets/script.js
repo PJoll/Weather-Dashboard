@@ -9,7 +9,7 @@ const result = document.querySelector("#result")
 
 const getLatLng = async ( city ) => {
     const result = await fetch(
-        `http://api.openweathermap.org/geo/1.0/direct?q=${ city }&limit=1&appid=${ ApiKey }` )
+        `http://api.openweathermap.org/geo/1.0/direct?q=${ city }&limit=1&appid=${ApiKey}` )
         if (result.lenght) {
             return{
             success: true,
