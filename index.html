@@ -19,42 +19,21 @@
     <main class="flex-row justify-space-between">
         <div class="col-12 col-md-4">
 
-            <div class="card">
-                <h2 class="card-header">Search for a City:</h2>
-                <form id="search-form" class="card-body">
-                    <input name="City" id="City" type="text" autofocus="true" class="form-input" />
-                    <button  class="btn">Search</button>
-                </form>
+            <div class="inputs">
+                <input id="input-city" type="text">
+                <button id="input-search">Search </button>
             </div>
 
         </div>
-
         <div class="col-12 col-md-8">
-            <div id="city-container" class="city-info"></div>
+            <div id="loading"></div>
+
+            <div id="error">Could not find that City</div>
+            <div id="result"></div>
         </div>
 
     </main>
     <script src="/Assets/script.js"></script>
-    </body>
-    </html>
+</body>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+</html>

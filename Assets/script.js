@@ -1,5 +1,6 @@
-var searchFormE1 = $("#search-form");
+const Apikey = "";
 
+const textInput =$("#input-city")
 function handlerSearchFormSubmit(event) {
     event.preventDefault();
 
