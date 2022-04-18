@@ -46,7 +46,7 @@ body {
     color: red ;
   }
   #result {
-    display: none;
+    display: auto;
     margin: 10px auto;
     width: 250px;
     text-align: center;

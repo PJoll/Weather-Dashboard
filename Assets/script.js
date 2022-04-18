@@ -23,14 +23,14 @@ const getLatLng = async (city) => {
             success: false,
         }
     }
-}
+} 
+
 const getWeather = async (lat, lng) => {
     const result = await fetch(
         `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lng}&appid=${ApiKey}`)
     const jSon = await result.json()
     return jSon || "Not Found"
 }
-
 button.addEventListener("click", async (e) => {
     e.preventDefault()
     inputWrap.style.display = "none"
@@ -52,7 +52,6 @@ button.addEventListener("click", async (e) => {
     const weather = await getWeather(coords.lat, coords.lng)
 
 })
-
 
 
 //
