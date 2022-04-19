@@ -28,4 +28,4 @@ https://pjoll.github.io/Weather-Dashboard/
 The following image shows the completed result.
 
 
-![alt text](./assets/images/Completed-result.png)
+![alt text](./Assets/FireShot%20Capture%20009%20-%20Weather%20Finder%20-%20127.0.0.1.png)
